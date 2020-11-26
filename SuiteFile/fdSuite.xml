@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+
+	<listeners>
+		<listener class-name="com.selenium.pageobjects.ListenerCode" />
+		<listener
+			class-name="com.selenium.pageobjects.ExtentReportCode" />
+
+	</listeners>
+
+
+	<test name="Test Cases for fixed deposit test">
+		<classes>
+			<class name="com.selenium.keyworddriven.FDTestCase" />
+		</classes>
+	</test> <!-- Test -->
+
+
+
+
+</suite> <!-- Suite -->
